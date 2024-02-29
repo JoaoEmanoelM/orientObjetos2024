@@ -1,6 +1,6 @@
 <?php
 function areaCirculo($pi, $raio){
-    $area = $raio * 2 * $pi;
+    $area = $raio * $raio * $pi;
     return $area;
 }
 function circuferenciaCirculo($pi, $raio){
