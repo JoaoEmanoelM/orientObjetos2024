@@ -1,6 +1,6 @@
 <?php
 
-$num = 0;
+$num = 0; //reconheço que poderia ter usado um "do while" ao invés de declarar essa variável
 
 while($num != 1){
 
@@ -28,5 +28,5 @@ while($num != 1){
         
     }
 
-    echo "0\33c";
+    echo "0\33c"; //o comando "0\33c" serve para limpar o visual do console
     echo "programa encerrado. \n";
