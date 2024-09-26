@@ -69,7 +69,7 @@ do {
             }
         
             $opcaoCarro = readline("Escolha o carro que você deseja apagar: ");
-            array_splice($carros, $opcaoCarro, 1);
+            array_splice($carros, $opcaoCarro - 1, 1);
             
         break;
         

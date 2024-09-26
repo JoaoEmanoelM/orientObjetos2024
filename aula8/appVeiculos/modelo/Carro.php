@@ -63,6 +63,6 @@ class Carro {
 
     public function __toString()
     {
-        return "Modelo: $this->modelo | Ano de fabricação: $this->anoFabricacao | Fabricante: $this->fabricante \n";
+        return "Modelo: $this->modelo | Ano de fabricação: $this->anoFabricacao | $this->fabricante \n";
     }
 }
